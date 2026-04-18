@@ -1,0 +1,29 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints and Model Weights
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# Datasets and Data Folders
+data/
+FieldPlant/
+PlantDoc Classification dataset/
+plantsegv2/
+*.zip
+*.rar
+*.tar.gz
+
+# IDE / OS Files
+.vscode/
+.idea/
+.DS_Store

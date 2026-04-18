@@ -1,0 +1,738 @@
+{
+  "apple_scab": {
+    "display_name": "Apple Scab",
+    "pathogen": "Venturia inaequalis (fungus)",
+    "severity_indicators": ["olive-green spots on leaves", "dark scabby lesions on fruit", "premature leaf drop"],
+    "immediate_action": [
+      "Remove and destroy all infected leaves and fruit",
+      "Apply fungicide immediately (captan, myclobutanil, or mancozeb)",
+      "Avoid overhead irrigation"
+    ],
+    "prevention": [
+      "Plant resistant apple varieties",
+      "Prune trees for good air circulation",
+      "Apply dormant sprays in early spring",
+      "Rake and destroy fallen leaves in autumn"
+    ],
+    "recommended_products": ["Captan 80 WDG", "Rally 40WSP (myclobutanil)", "Mancozeb"],
+    "organic_options": ["Sulfur-based fungicides", "Copper octanoate", "Neem oil"],
+    "notes": "Begin spray program at green tip stage and continue every 7–10 days during wet weather."
+  },
+
+  "apple_healthy": {
+    "display_name": "Apple — Healthy",
+    "pathogen": null,
+    "severity_indicators": [],
+    "immediate_action": ["No action needed"],
+    "prevention": ["Maintain regular fertilization", "Monitor for early signs of disease", "Prune annually for air circulation"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy. Continue regular monitoring."
+  },
+
+  "apple_rust": {
+    "display_name": "Apple Cedar Rust",
+    "pathogen": "Gymnosporangium juniperi-virginianae (fungus)",
+    "severity_indicators": ["bright orange spots on upper leaf surface", "tube-like spore structures on undersides", "fruit deformation"],
+    "immediate_action": [
+      "Apply fungicide at pink bud stage",
+      "Remove galls from nearby juniper/cedar trees",
+      "Spray myclobutanil or propiconazole"
+    ],
+    "prevention": [
+      "Remove alternate hosts (Eastern red cedar) within 1 km if possible",
+      "Plant rust-resistant apple varieties",
+      "Apply preventive fungicide from bud break through June"
+    ],
+    "recommended_products": ["Rally 40WSP", "Bumper 41.8EC (propiconazole)", "Immunox"],
+    "organic_options": ["Sulfur fungicides (limited efficacy)", "Copper-based sprays"],
+    "notes": "Rust requires two hosts (apple + juniper). Breaking the cycle on one host reduces pressure."
+  },
+
+  "pepper_healthy": {
+    "display_name": "Bell Pepper — Healthy",
+    "pathogen": null,
+    "severity_indicators": [],
+    "immediate_action": ["No action needed"],
+    "prevention": ["Rotate crops annually", "Maintain soil moisture", "Monitor for aphids and whiteflies"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "pepper_bacterial_spot": {
+    "display_name": "Pepper Bacterial Spot",
+    "pathogen": "Xanthomonas campestris pv. vesicatoria (bacterium)",
+    "severity_indicators": ["water-soaked spots on leaves", "yellow halos around lesions", "raised scabby spots on fruit"],
+    "immediate_action": [
+      "Remove severely infected leaves immediately",
+      "Apply copper-based bactericide",
+      "Avoid working with plants when wet"
+    ],
+    "prevention": [
+      "Use certified disease-free seed",
+      "Avoid overhead irrigation",
+      "Crop rotation (3-year minimum)",
+      "Disinfect tools with 10% bleach solution"
+    ],
+    "recommended_products": ["Kocide 3000 (copper hydroxide)", "Badge X2", "Actigard"],
+    "organic_options": ["Copper octanoate", "Copper hydroxide"],
+    "notes": "Warm, wet conditions favor spread. Fixed copper programs work best when started preventively."
+  },
+
+  "blueberry_healthy": {
+    "display_name": "Blueberry — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Maintain soil pH 4.5–5.5", "Mulch to retain moisture", "Prune dead canes annually"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "cherry_healthy": {
+    "display_name": "Cherry — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Prune for air circulation", "Avoid overhead irrigation", "Monitor for cherry leaf spot"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "corn_gray_leaf_spot": {
+    "display_name": "Corn Gray Leaf Spot (Cercosporiose)",
+    "pathogen": "Cercospora zeae-maydis (fungus)",
+    "severity_indicators": ["rectangular gray-tan lesions", "lesions run parallel to leaf veins", "premature leaf death in severe cases"],
+    "immediate_action": [
+      "Apply strobilurin or triazole fungicide at first sign",
+      "Scout regularly during tasseling"
+    ],
+    "prevention": [
+      "Plant resistant hybrids",
+      "Crop rotation with non-host crops",
+      "Tillage to bury infected residue",
+      "Avoid dense plant populations"
+    ],
+    "recommended_products": ["Headline (pyraclostrobin)", "Quilt Xcel", "Aproach Prima"],
+    "organic_options": ["Copper-based fungicides (limited)"],
+    "notes": "Most economical to spray at VT/R1 growth stage when weather favors disease."
+  },
+
+  "corn_leaf_blight": {
+    "display_name": "Corn Leaf Blight (Northern/Southern)",
+    "pathogen": "Exserohilum turcicum / Bipolaris maydis (fungi)",
+    "severity_indicators": ["large elliptical tan lesions", "lesions with dark borders", "rapid leaf death in severe cases"],
+    "immediate_action": [
+      "Apply fungicide (strobilurin or triazole) at early symptom stage",
+      "Remove severely blighted leaves if manageable"
+    ],
+    "prevention": [
+      "Use resistant corn hybrids",
+      "Crop rotation",
+      "Deep tillage to reduce residue",
+      "Balanced nitrogen fertilization"
+    ],
+    "recommended_products": ["Headline AMP", "Trivapro", "Stratego YLD"],
+    "organic_options": ["Copper-based fungicides"],
+    "notes": "Northern corn leaf blight: cigar-shaped lesions. Southern: smaller, more irregular."
+  },
+
+  "corn_rust": {
+    "display_name": "Corn Rust (Common/Southern)",
+    "pathogen": "Puccinia sorghi / Puccinia polysora (fungi)",
+    "severity_indicators": ["small brick-red to orange pustules on leaves", "pustules on both leaf surfaces", "yellow halo around pustules"],
+    "immediate_action": [
+      "Apply triazole or strobilurin fungicide",
+      "Scout at early pustule stage for best results"
+    ],
+    "prevention": [
+      "Plant resistant hybrids (most effective control)",
+      "Early planting to escape peak spore pressure",
+      "Avoid excessive nitrogen"
+    ],
+    "recommended_products": ["Quilt Xcel", "Headline", "Tilt (propiconazole)"],
+    "organic_options": ["Sulfur-based fungicides"],
+    "notes": "Southern rust is more aggressive than common rust. Act quickly when pustules appear before tasseling."
+  },
+
+  "corn_downy_mildew": {
+    "display_name": "Corn Downy Mildew (Mildiou du Maïs)",
+    "pathogen": "Peronosclerospora sorghi / P. maydis (oomycete)",
+    "severity_indicators": ["systemic chlorosis — entire plant yellows", "white downy growth on leaf undersides", "stunted plants"],
+    "immediate_action": [
+      "Remove and destroy infected plants immediately",
+      "Apply metalaxyl-based fungicide to remaining plants",
+      "Report to local agricultural extension if widespread"
+    ],
+    "prevention": [
+      "Use treated seed (metalaxyl seed treatment)",
+      "Plant resistant varieties",
+      "Improve drainage — disease favors wet soils",
+      "Avoid planting sorghum nearby"
+    ],
+    "recommended_products": ["Ridomil Gold (metalaxyl)", "Apron XL (seed treatment)"],
+    "organic_options": ["Copper hydroxide (preventive only)"],
+    "notes": "Quarantine disease in some regions. Report unusual outbreaks to authorities."
+  },
+
+  "corn_streak_virus": {
+    "display_name": "Corn Streak Virus / Rayure du Maïs",
+    "pathogen": "Maize streak virus (MSV) — transmitted by leafhoppers",
+    "severity_indicators": ["narrow yellow streaks along leaf veins", "stunted growth", "pale green to white stripes on young leaves"],
+    "immediate_action": [
+      "Control leafhopper vectors with insecticide",
+      "Remove and destroy heavily infected plants",
+      "Apply systemic insecticide to protect healthy plants"
+    ],
+    "prevention": [
+      "Plant virus-resistant varieties (CIMMYT MSV-resistant lines)",
+      "Early planting to avoid peak leafhopper populations",
+      "Control grassy weeds that harbor leafhoppers",
+      "Use reflective mulch to deter leafhoppers"
+    ],
+    "recommended_products": ["Imidacloprid seed treatment", "Lambda-cyhalothrin (foliar)", "Thiamethoxam"],
+    "organic_options": ["Kaolin clay (leafhopper deterrent)", "Neem oil"],
+    "notes": "No cure once infected. Resistant varieties are the most effective long-term solution."
+  },
+
+  "corn_yellowing": {
+    "display_name": "Corn Yellowing / Jaunissement",
+    "pathogen": "Multiple causes: nitrogen deficiency, waterlogging, virus, or fungal infection",
+    "severity_indicators": ["general leaf yellowing", "yellowing starting from leaf tips or margins", "V-shaped yellow patterns"],
+    "immediate_action": [
+      "Check soil nitrogen — apply urea if deficient",
+      "Assess drainage — improve if waterlogged",
+      "Scout for aphids/leafhoppers (virus vectors)",
+      "Test soil pH if persistent"
+    ],
+    "prevention": [
+      "Balanced NPK fertilization",
+      "Proper drainage",
+      "Regular scouting for pests"
+    ],
+    "recommended_products": ["Urea 46%", "Foliar nitrogen spray"],
+    "organic_options": ["Compost top-dressing", "Fish emulsion foliar feed"],
+    "notes": "Yellowing from mid-rib outward suggests nitrogen deficiency. Yellowing from margins suggests potassium. Stripe patterns suggest virus."
+  },
+
+  "corn_brown_spot": {
+    "display_name": "Corn Brown Spot (Taches Brunes)",
+    "pathogen": "Physoderma maydis (fungus-like organism)",
+    "severity_indicators": ["yellow to brown spots on leaves and midrib", "dark brown spots on leaf sheaths", "purple-brown elongated lesions"],
+    "immediate_action": [
+      "Apply fungicide if disease covers >50% of upper canopy before tasseling",
+      "Improve air circulation"
+    ],
+    "prevention": [
+      "Plant resistant hybrids",
+      "Crop rotation",
+      "Avoid excessive irrigation",
+      "Fungicide at V5–V8 in high-risk areas"
+    ],
+    "recommended_products": ["Aproach (picoxystrobin)", "Quilt Xcel"],
+    "organic_options": ["Copper-based fungicides"],
+    "notes": "Often confused with other leaf diseases. Key ID: brown midrib lesions are diagnostic."
+  },
+
+  "corn_yellow_spot": {
+    "display_name": "Corn Yellow Spot / Taches Jaunes",
+    "pathogen": "Mycosphaerella zeae-maydis or nutritional/environmental cause",
+    "severity_indicators": ["small round to oval yellow spots", "spots may have darker centers", "general chlorosis in patches"],
+    "immediate_action": [
+      "Scout to confirm pathogen vs nutritional cause",
+      "Apply fungicide if pathogen confirmed",
+      "Foliar micronutrient spray if deficiency suspected"
+    ],
+    "prevention": ["Balanced fertilization", "Crop rotation", "Plant resistant varieties"],
+    "recommended_products": ["Headline", "Foliar zinc/manganese spray"],
+    "organic_options": ["Compost tea", "Seaweed extract"],
+    "notes": "Confirm diagnosis before applying fungicide."
+  },
+
+  "corn_chlorotic_spot": {
+    "display_name": "Corn Chlorotic Spots",
+    "pathogen": "Nutritional deficiency or early viral infection",
+    "severity_indicators": ["interveinal chlorosis", "irregular pale patches", "spots without clear margins"],
+    "immediate_action": [
+      "Soil test for micronutrients",
+      "Apply balanced foliar feed",
+      "Scout for insect vectors"
+    ],
+    "prevention": ["Correct soil nutrition before planting", "Monitor pH (target 6.0–6.8)"],
+    "recommended_products": ["Foliar chelated iron/zinc", "Balanced NPK fertilizer"],
+    "organic_options": ["Kelp meal", "Compost"],
+    "notes": "Interveinal chlorosis on young leaves often indicates iron or manganese deficiency."
+  },
+
+  "corn_healthy": {
+    "display_name": "Corn — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Monitor weekly", "Maintain balanced fertilization", "Scout for pests at VT/R1"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "corn_purple_discoloration": {
+    "display_name": "Corn Purple Discoloration",
+    "pathogen": "Phosphorus deficiency or genetic factor",
+    "severity_indicators": ["purple to reddish coloration on leaves and stems", "usually in young plants", "V-shaped purple patterns on older leaves"],
+    "immediate_action": [
+      "Apply phosphorus fertilizer (DAP or TSP)",
+      "Check soil pH — low pH locks up phosphorus",
+      "Warm soil to improve phosphorus uptake"
+    ],
+    "prevention": ["Soil test before planting", "Maintain pH 6.0–7.0", "Band phosphorus fertilizer at planting"],
+    "recommended_products": ["DAP (18-46-0)", "TSP (0-46-0)", "Starter fertilizer"],
+    "organic_options": ["Bone meal", "Rock phosphate"],
+    "notes": "Cold soils commonly cause temporary phosphorus-related purpling that resolves as temperatures warm."
+  },
+
+  "corn_insect_damage": {
+    "display_name": "Corn Insect Damage",
+    "pathogen": "Various insects (stem borers, armyworms, aphids, etc.)",
+    "severity_indicators": ["holes in leaves", "tassels/silks damaged", "lodging (fallen plants)", "frass (insect droppings)"],
+    "immediate_action": [
+      "Identify insect species before treating",
+      "Apply appropriate insecticide",
+      "For stem borers: apply granular insecticide to whorl",
+      "For armyworms: apply pyrethroid at first sign"
+    ],
+    "prevention": [
+      "Use Bt-expressing varieties (for borers)",
+      "Monitor with pheromone traps",
+      "Encourage natural enemies (parasitic wasps, birds)",
+      "Early planting to avoid peak pest cycles"
+    ],
+    "recommended_products": ["Lambda-cyhalothrin", "Chlorpyrifos (stem borer)", "Spinosad (armyworm, organic)"],
+    "organic_options": ["Bt (Bacillus thuringiensis)", "Neem oil", "Spinosad"],
+    "notes": "Correct insect ID is critical — treatment varies by pest species."
+  },
+
+  "corn_smut": {
+    "display_name": "Corn Smut / Charbon du Maïs",
+    "pathogen": "Ustilago maydis (fungus)",
+    "severity_indicators": ["large silvery-white to gray galls on ears, tassels, or leaves", "galls eventually burst releasing black powdery spores"],
+    "immediate_action": [
+      "Remove galls before they burst (while silvery-white)",
+      "Dispose of galls away from field — do NOT compost",
+      "Bag and burn or bury deeply"
+    ],
+    "prevention": [
+      "Plant smut-resistant hybrids",
+      "Avoid mechanical injury during cultivation",
+      "Do not apply excess nitrogen",
+      "Rotate crops"
+    ],
+    "recommended_products": ["No effective fungicide for established infection", "Seed treatments help prevent systemic infections"],
+    "organic_options": ["Trichoderma-based seed treatments"],
+    "notes": "Corn smut (huitlacoche) is edible and considered a delicacy in Mexico. Galls can be harvested and sold if market exists."
+  },
+
+  "corn_red_leaf": {
+    "display_name": "Corn Red/Purple Leaf Coloration",
+    "pathogen": "Genetic trait, stress response, or potassium deficiency",
+    "severity_indicators": ["reddish to purple leaf coloration", "often at leaf margins or tips", "associated with drought or heat stress"],
+    "immediate_action": [
+      "Check potassium levels — apply potash if deficient",
+      "Irrigate if drought-stressed",
+      "Monitor — often self-resolves"
+    ],
+    "prevention": ["Balanced NPK with adequate K", "Avoid moisture stress at critical stages"],
+    "recommended_products": ["Potassium chloride (MOP)", "Potassium sulfate (SOP)"],
+    "organic_options": ["Greensand", "Wood ash (in moderation)"],
+    "notes": "Some hybrids show red pigmentation naturally under stress — confirm with nutrient test."
+  },
+
+  "cassava_mosaic": {
+    "display_name": "Cassava Mosaic Disease (CMD)",
+    "pathogen": "Cassava mosaic begomoviruses (CMV family) — transmitted by whiteflies",
+    "severity_indicators": ["mosaic chlorosis on leaves", "leaf distortion and curling", "stunted plant growth", "reduced root yield"],
+    "immediate_action": [
+      "Remove and destroy infected plants immediately",
+      "Control whitefly vectors with insecticide",
+      "Do NOT use cuttings from infected plants"
+    ],
+    "prevention": [
+      "Use CMD-resistant varieties (TME 419, IITA varieties)",
+      "Use certified virus-free planting material",
+      "Control whiteflies with neonicotinoid seed/stem treatment",
+      "Rogue out infected plants early"
+    ],
+    "recommended_products": ["Imidacloprid (whitefly control)", "Thiamethoxam", "Acetamiprid"],
+    "organic_options": ["Neem oil (whitefly deterrent)", "Reflective mulch", "Yellow sticky traps"],
+    "notes": "Most economically important cassava disease in Africa. Resistant varieties are the most effective and affordable solution."
+  },
+
+  "cassava_healthy": {
+    "display_name": "Cassava — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Use clean planting material", "Monitor for whiteflies monthly", "Maintain soil fertility"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "cassava_brown_spot": {
+    "display_name": "Cassava Brown Leaf Spot",
+    "pathogen": "Cercosporidium henningsii (fungus)",
+    "severity_indicators": ["circular brown spots with yellow halos", "spots on both leaf surfaces", "premature defoliation in severe cases"],
+    "immediate_action": [
+      "Apply mancozeb or copper-based fungicide",
+      "Remove heavily infected lower leaves"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Proper spacing for air circulation",
+      "Avoid overhead irrigation",
+      "Balanced potassium nutrition"
+    ],
+    "recommended_products": ["Mancozeb 80WP", "Ridomil Gold MZ", "Copper oxychloride"],
+    "organic_options": ["Copper-based sprays", "Neem extract"],
+    "notes": "Usually not economically significant unless severe defoliation occurs."
+  },
+
+  "cassava_bacterial_blight": {
+    "display_name": "Cassava Bacterial Blight (CBB)",
+    "pathogen": "Xanthomonas axonopodis pv. manihotis (bacterium)",
+    "severity_indicators": ["angular water-soaked leaf spots", "wilting of shoot tips", "cankers on stems with gummy exudate", "dieback"],
+    "immediate_action": [
+      "Remove and destroy infected plant parts",
+      "Apply copper bactericide",
+      "Disinfect cutting tools between plants (10% bleach)",
+      "Avoid working in field when wet"
+    ],
+    "prevention": [
+      "Use disease-free planting material",
+      "Use resistant varieties",
+      "Crop rotation",
+      "Avoid movement of infected material"
+    ],
+    "recommended_products": ["Kocide 3000", "Copper oxychloride", "Copper hydroxide"],
+    "organic_options": ["Copper-based sprays"],
+    "notes": "Spreads rapidly in wet conditions. Roguing infected plants early is critical."
+  },
+
+  "tomato_early_blight": {
+    "display_name": "Tomato Early Blight",
+    "pathogen": "Alternaria solani (fungus)",
+    "severity_indicators": ["target-like concentric ring lesions", "yellowing around lesions", "lesions start on lower/older leaves"],
+    "immediate_action": [
+      "Remove infected lower leaves",
+      "Apply chlorothalonil or mancozeb fungicide",
+      "Stake plants and improve air circulation"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Mulch to reduce soil splash",
+      "Drip irrigation instead of overhead",
+      "Crop rotation (3 years minimum)",
+      "Remove debris after harvest"
+    ],
+    "recommended_products": ["Bravo (chlorothalonil)", "Mancozeb", "Azoxystrobin"],
+    "organic_options": ["Copper-based fungicides", "Neem oil", "Bacillus subtilis (Serenade)"],
+    "notes": "Most common tomato disease. Begin preventive spray when plants are 30 cm tall."
+  },
+
+  "tomato_septoria_spot": {
+    "display_name": "Tomato Septoria Leaf Spot",
+    "pathogen": "Septoria lycopersici (fungus)",
+    "severity_indicators": ["small circular spots with dark borders and white/gray centers", "tiny black dots (pycnidia) in spot centers", "lower leaves affected first"],
+    "immediate_action": [
+      "Remove infected leaves",
+      "Apply mancozeb, chlorothalonil, or copper fungicide",
+      "Avoid wetting foliage"
+    ],
+    "prevention": [
+      "Stake and prune for air circulation",
+      "Mulch soil surface",
+      "Drip irrigation",
+      "3-year crop rotation"
+    ],
+    "recommended_products": ["Daconil (chlorothalonil)", "Mancozeb", "Copper octanoate"],
+    "organic_options": ["Copper-based sprays", "Bacillus subtilis"],
+    "notes": "Spreads rapidly in wet conditions. Key ID: tiny black pycnidia in center of spots."
+  },
+
+  "tomato_healthy": {
+    "display_name": "Tomato — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Monitor weekly", "Maintain consistent irrigation", "Scout for early blight on lower leaves"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "tomato_bacterial_spot": {
+    "display_name": "Tomato Bacterial Spot",
+    "pathogen": "Xanthomonas vesicatoria (bacterium)",
+    "severity_indicators": ["small water-soaked spots on leaves", "dark raised spots on fruit", "yellow halos around leaf lesions"],
+    "immediate_action": [
+      "Apply copper bactericide immediately",
+      "Remove infected plant debris",
+      "Avoid working in field when wet"
+    ],
+    "prevention": [
+      "Use certified disease-free seed and transplants",
+      "Drip irrigation",
+      "Crop rotation",
+      "Copper spray program starting at transplant"
+    ],
+    "recommended_products": ["Kocide 3000", "Badge X2", "Actigard (SAR inducer)"],
+    "organic_options": ["Copper hydroxide", "Copper octanoate"],
+    "notes": "Warm, humid conditions accelerate spread. Actigard can induce systemic resistance."
+  },
+
+  "tomato_late_blight": {
+    "display_name": "Tomato Late Blight (Mildiou)",
+    "pathogen": "Phytophthora infestans (oomycete)",
+    "severity_indicators": ["large greasy water-soaked patches on leaves", "white fuzzy sporulation on leaf undersides", "rapid plant collapse", "dark lesions on fruit and stems"],
+    "immediate_action": [
+      "Apply fungicide immediately (mancozeb + metalaxyl)",
+      "Remove and bag infected plant parts",
+      "Alert neighboring farms — spreads rapidly",
+      "Do NOT compost infected material"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Avoid overhead irrigation",
+      "Improve spacing and air circulation",
+      "Apply preventive copper or mancozeb sprays in wet weather",
+      "Scout at first sign of cool, wet weather"
+    ],
+    "recommended_products": ["Ridomil Gold MZ", "Forum (dimethomorph)", "Revus (mandipropamid)", "Mancozeb"],
+    "organic_options": ["Copper hydroxide", "Bordeaux mixture"],
+    "notes": "Can destroy entire crops in 7–10 days under favorable conditions. Act at first symptom — do not wait."
+  },
+
+  "tomato_mosaic_virus": {
+    "display_name": "Tomato Mosaic Virus (ToMV/TMV)",
+    "pathogen": "Tomato mosaic virus / Tobacco mosaic virus (virus)",
+    "severity_indicators": ["mosaic pattern of light and dark green", "leaf curling or distortion", "stunted growth", "reduced fruit set"],
+    "immediate_action": [
+      "Remove and destroy infected plants",
+      "Wash hands thoroughly after handling infected plants",
+      "Disinfect tools with 10% bleach or 70% ethanol",
+      "Control aphid vectors"
+    ],
+    "prevention": [
+      "Use TMV/ToMV-resistant varieties",
+      "Use virus-free certified seed",
+      "Control aphids and thrips (vectors)",
+      "No smoking near tomato plants (tobacco carries TMV)"
+    ],
+    "recommended_products": ["No cure — control vectors: Imidacloprid, Spinosad"],
+    "organic_options": ["Neem oil (aphid control)", "Reflective mulch", "Yellow sticky traps"],
+    "notes": "Highly stable virus — can survive on tools, clothes, and dried plant debris for years. Prevention is the only management."
+  },
+
+  "tomato_yellow_leaf_curl": {
+    "display_name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "pathogen": "Tomato yellow leaf curl virus — transmitted by silverleaf whitefly (Bemisia tabaci)",
+    "severity_indicators": ["upward curling and yellowing of leaves", "stunted bushy growth", "flower drop", "severely reduced yield"],
+    "immediate_action": [
+      "Remove and destroy infected plants if <20% of field",
+      "Apply systemic insecticide to control whiteflies",
+      "Install sticky yellow traps"
+    ],
+    "prevention": [
+      "Plant TYLCV-resistant varieties (Ty-1, Ty-3 genes)",
+      "Use whitefly-proof insect screens in nursery",
+      "Apply reflective mulch",
+      "Neonicotinoid seed/transplant treatment",
+      "Avoid planting near older infected fields"
+    ],
+    "recommended_products": ["Admire (imidacloprid)", "Actara (thiamethoxam)", "Oberon (spiromesifen)"],
+    "organic_options": ["Neem oil", "Insecticidal soap", "Reflective mulch"],
+    "notes": "One of the most devastating tomato diseases worldwide. Resistant varieties + whitefly control are essential."
+  },
+
+  "tomato_leaf_mold": {
+    "display_name": "Tomato Leaf Mold",
+    "pathogen": "Passalora fulva / Fulvia fulva (fungus)",
+    "severity_indicators": ["pale green/yellow spots on upper leaf surface", "olive-green to brown velvety mold on lower surface", "leaves curl and drop"],
+    "immediate_action": [
+      "Improve ventilation in greenhouse/tunnel",
+      "Reduce humidity below 85%",
+      "Apply chlorothalonil or mancozeb"
+    ],
+    "prevention": [
+      "Resistant varieties",
+      "Good ventilation",
+      "Avoid overhead watering",
+      "Space plants adequately"
+    ],
+    "recommended_products": ["Daconil", "Mancozeb", "Copper fungicides"],
+    "organic_options": ["Copper-based sprays", "Bacillus subtilis"],
+    "notes": "Primarily a greenhouse problem. Reducing humidity is the most effective control."
+  },
+
+  "tomato_spider_mites": {
+    "display_name": "Tomato Two-Spotted Spider Mites",
+    "pathogen": "Tetranychus urticae (arachnid — mite)",
+    "severity_indicators": ["fine stippling/bronzing on upper leaf surface", "fine webbing on leaves", "leaves become dry and papery", "mites visible under magnification"],
+    "immediate_action": [
+      "Apply miticide (abamectin, spiromesifen)",
+      "Wash plants with strong water spray to dislodge mites",
+      "Increase humidity — mites thrive in dry conditions"
+    ],
+    "prevention": [
+      "Avoid dusty conditions",
+      "Maintain adequate irrigation",
+      "Introduce predatory mites (Phytoseiulus persimilis)",
+      "Monitor with sticky traps and magnifier"
+    ],
+    "recommended_products": ["Agri-Mek (abamectin)", "Oberon (spiromesifen)", "Kanemite"],
+    "organic_options": ["Neem oil", "Insecticidal soap", "Predatory mites", "Sulfur"],
+    "notes": "Rotate miticide classes to prevent resistance. Never use the same active ingredient twice in a season."
+  },
+
+  "tomato_brown_spot": {
+    "display_name": "Tomato Brown Spot / Taches Brunes",
+    "pathogen": "Alternaria alternata or Stemphylium spp. (fungi)",
+    "severity_indicators": ["small dark brown spots often with yellow halo", "spots on fruit (calyx end)", "concentric rings within spots"],
+    "immediate_action": [
+      "Apply mancozeb or iprodione fungicide",
+      "Remove infected leaves"
+    ],
+    "prevention": ["Crop rotation", "Balanced calcium nutrition", "Avoid moisture stress", "Mulching"],
+    "recommended_products": ["Mancozeb", "Rovral (iprodione)", "Copper-based fungicide"],
+    "organic_options": ["Copper sprays", "Neem oil"],
+    "notes": "Often secondary to calcium deficiency or injury. Improve crop nutrition alongside fungicide application."
+  },
+
+  "grape_healthy": {
+    "display_name": "Grape — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Prune annually for air circulation", "Monitor for downy and powdery mildew", "Train vines properly"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "grape_black_rot": {
+    "display_name": "Grape Black Rot",
+    "pathogen": "Guignardia bidwellii (fungus)",
+    "severity_indicators": ["circular tan/brown leaf spots with black borders", "fruit shrivels to black 'mummies'", "black streaks on young shoots"],
+    "immediate_action": [
+      "Apply myclobutanil or mancozeb fungicide",
+      "Remove and destroy mummified fruit",
+      "Prune out infected shoots"
+    ],
+    "prevention": [
+      "Remove all mummies from vine and ground",
+      "Good canopy management for air circulation",
+      "Begin spray program at budbreak",
+      "Apply protectant fungicide before rain events"
+    ],
+    "recommended_products": ["Rally (myclobutanil)", "Mancozeb", "Captan", "Abound (azoxystrobin)"],
+    "organic_options": ["Copper-based fungicides", "Sulfur"],
+    "notes": "Mummified berries are the primary inoculum source — their removal is critical for disease management."
+  },
+
+  "peach_healthy": {
+    "display_name": "Peach — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Apply dormant copper spray", "Monitor for brown rot and leaf curl", "Prune for open center"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "potato_early_blight": {
+    "display_name": "Potato Early Blight",
+    "pathogen": "Alternaria solani (fungus)",
+    "severity_indicators": ["target-like concentric ring spots on lower leaves", "yellowing around spots", "premature defoliation"],
+    "immediate_action": [
+      "Apply chlorothalonil or mancozeb",
+      "Remove infected lower leaves",
+      "Ensure adequate potassium nutrition"
+    ],
+    "prevention": [
+      "Use certified disease-free seed",
+      "Crop rotation (3+ years)",
+      "Adequate plant spacing",
+      "Balanced fertilization (avoid excess N)"
+    ],
+    "recommended_products": ["Bravo (chlorothalonil)", "Mancozeb", "Quadris (azoxystrobin)"],
+    "organic_options": ["Copper fungicides", "Bacillus subtilis"],
+    "notes": "Weaken plants are more susceptible. Ensure adequate K and Ca nutrition."
+  },
+
+  "potato_late_blight": {
+    "display_name": "Potato Late Blight",
+    "pathogen": "Phytophthora infestans (oomycete)",
+    "severity_indicators": ["large irregular water-soaked lesions", "white mycelium on leaf undersides", "rapid plant collapse", "tuber rot"],
+    "immediate_action": [
+      "Apply metalaxyl + mancozeb immediately",
+      "Remove infected haulms before harvest if severe",
+      "Alert neighbors — extremely contagious"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Use certified disease-free seed tubers",
+      "Preventive copper sprays in wet weather",
+      "Destroy cull piles and volunteer plants",
+      "Harvest in dry conditions"
+    ],
+    "recommended_products": ["Ridomil Gold MZ", "Revus (mandipropamid)", "Infinito (fluopicolide + propamocarb)"],
+    "organic_options": ["Bordeaux mixture", "Copper hydroxide"],
+    "notes": "Caused the Irish Famine (1845–1852). Can destroy 100% of crop in 7 days under ideal conditions for the pathogen."
+  },
+
+  "raspberry_healthy": {
+    "display_name": "Raspberry — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Remove old floricanes after harvest", "Monitor for cane blight and anthracnose", "Maintain good drainage"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "soybean_healthy": {
+    "display_name": "Soybean — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Scout regularly for soybean rust", "Monitor pod fill stage", "Maintain weed control"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  },
+
+  "squash_powdery_mildew": {
+    "display_name": "Squash Powdery Mildew",
+    "pathogen": "Podosphaera xanthii (fungus)",
+    "severity_indicators": ["white powdery coating on leaf surfaces", "older leaves affected first", "yellowing and death of heavily infected leaves"],
+    "immediate_action": [
+      "Apply potassium bicarbonate or sulfur fungicide",
+      "Remove heavily infected leaves",
+      "Improve air circulation"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Avoid excessive nitrogen",
+      "Good plant spacing",
+      "Morning irrigation (leaves dry by evening)"
+    ],
+    "recommended_products": ["Sulfur fungicide", "Quintec (quinoxyfen)", "Torino (cyflufenamid)"],
+    "organic_options": ["Potassium bicarbonate", "Neem oil", "Milk spray (30% milk/70% water)", "Sulfur"],
+    "notes": "Unlike most fungi, powdery mildew thrives in dry weather with high humidity. Milk spray is surprisingly effective organically."
+  },
+
+  "strawberry_healthy": {
+    "display_name": "Strawberry — Healthy",
+    "pathogen": null,
+    "immediate_action": ["No action needed"],
+    "prevention": ["Monitor for gray mold (Botrytis)", "Remove old leaves", "Avoid overwatering"],
+    "recommended_products": [],
+    "organic_options": [],
+    "notes": "Plant looks healthy."
+  }
+}

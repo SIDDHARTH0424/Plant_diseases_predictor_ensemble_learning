@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emseble Plant Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-mesh"></div>
+    <main class="container">
+        <header class="hero">
+            <div class="logo">
+                <i class="fa-solid fa-leaf"></i> Emseble Plant Clinic
+            </div>
+            <h1>Diagnose Plant Diseases <span>Instantly</span></h1>
+            <p>Powered by our advanced AI ensemble model. Upload a photo or use your webcam to detect diseases and get immediate cure recommendations.</p>
+        </header>
+
+        <section class="card interface-card">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="upload"><i class="fa-solid fa-upload"></i> Upload Image</button>
+                <button class="tab-btn" data-tab="webcam"><i class="fa-solid fa-camera"></i> Use Webcam</button>
+            </div>
+
+            <div class="tab-content active" id="upload-tab">
+                <div class="upload-area" id="drop-zone">
+                    <i class="fa-solid fa-cloud-arrow-up display-icon"></i>
+                    <h3>Drag & Drop your image here</h3>
+                    <p>or</p>
+                    <label for="file-input" class="btn primary-btn">Browse Files</label>
+                    <input type="file" id="file-input" accept="image/*" hidden>
+                </div>
+                <div class="preview-area" id="upload-preview-area" style="display: none;">
+                    <img id="upload-preview" alt="Preview">
+                    <button class="btn analyze-btn" id="analyze-upload-btn">Analyze Image <i class="fa-solid fa-wand-magic-sparkles"></i></button>
+                    <button class="btn secondary-btn" id="reset-upload-btn">Try Another</button>
+                </div>
+            </div>
+
+            <div class="tab-content" id="webcam-tab">
+                <div class="webcam-container">
+                    <video id="webcam-video" autoplay playsinline></video>
+                    <canvas id="webcam-canvas" style="display: none;"></canvas>
+                    <div class="webcam-controls">
+                        <button class="btn start-cam-btn" id="start-cam-btn"><i class="fa-solid fa-video"></i> Start Camera</button>
+                        <button class="btn capture-btn" id="capture-btn" style="display: none;"><i class="fa-solid fa-camera-retro"></i> Capture & Analyze</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loading-indicator" class="loading-overlay" style="display: none;">
+            <div class="spinner"></div>
+            <p>AI is analyzing the leaf structure...</p>
+        </div>
+
+        <!-- Results Card -->
+        <section class="card results-card" id="results-card" style="display: none;">
+            <!-- Content will be dynamically inserted here -->
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
